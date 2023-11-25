@@ -13,6 +13,7 @@ pd.set_option("display.float_format",lambda x : "%.3f" % x)
 df_= pd.read_excel(r"C:\Users\bett0\Desktop\online_retail_II.xlsx",sheet_name="Year 2009-2010")
 df = df_.copy()
 
+
 #veri hazırlama
 print(df.head(5))
 df.isnull().sum() #eksik değerler tespit edilir.
